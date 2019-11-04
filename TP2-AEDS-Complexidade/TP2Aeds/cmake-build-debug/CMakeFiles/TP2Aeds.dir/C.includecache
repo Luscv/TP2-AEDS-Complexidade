@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Mochila.c
+TAD_Mochila.h
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Mochila.h
+TAD_Objeto.c
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.c
+
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Mochila.h
+TAD_Objeto.h
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.h
+
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.c
+TAD_Objeto.h
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.h
+
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.h
+
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+TAD_Mochila.c
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Mochila.c
+TAD_Objeto.h
+C:/Users/vburi/CLionProjects/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.h
+
