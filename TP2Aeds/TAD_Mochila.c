@@ -42,3 +42,41 @@ void combinationUtil(TypeObjeto objeto[], int capacidade, int quantidade, int in
     // i+1 is passed, but index is not changed)
     combinationUtil(objeto, capacidade, quantidade, index, data, i+1);
 }
+
+int InsereMochila(TypeMochila *mochila, TypeObjeto *objeto, TypeComb *combatual, int capacidade){
+    for (int i = 0; i < capacidade; ++i) {
+        mochila->objeto[i] = combatual->objeto[i];
+        printf("Melhor combinacao:\n");
+        printf("objeto %d:", capacidade);
+        printf("peso-%d valor-%d", mochila->objeto[i].peso, mochila->objeto[i].valor);
+        printf("\n");
+    }
+    printf("Peso Total: %d\n", combatual->pesototal);
+    printf("Peso Total: %d\n", combatual->valortotal);
+
+}
+
+
+
+int CombinacaoAtual(TypeComb *combatual, TypeObjeto *objeto, int pesototal, int valortotal, TypeObjeto data[], int capacidade){
+    int i;
+    if(combatual->valortotal == NULL && combatual->pesototal == NULL){
+        for (i = 0; i < capacidade; ++i) {
+            combatual->objeto[i] = data[i];
+        }
+        combatual->pesototal = pesototal;
+        combatual->valortotal = valortotal;
+    } else{
+        if (combatual->valortotal <= valortotal && pesototal <= 40){
+            if(combatual->valortotal == valortotal && combatual->pesototal > pesototal){
+                for (i = 0; i < capacidade; ++i) {
+                    combatual->objeto[i] = data[i];
+                }
+                combatual->pesototal = pesototal;
+                combatual->valortotal = valortotal;
+            }
+        }else{
+            return 0;
+        }
+    }
+}
