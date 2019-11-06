@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TP2Aeds.dir/main.c.obj"
+  "CMakeFiles/TP2Aeds.dir/main.c.o"
+  "TP2Aeds"
   "TP2Aeds.pdb"
-  "TP2Aeds.exe"
-  "TP2Aeds.exe.manifest"
-  "libTP2Aeds.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

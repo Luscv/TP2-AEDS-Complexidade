@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Mochila.c
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Mochila.c
 TAD_Mochila.h
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Mochila.h
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Mochila.h
 TAD_Objeto.c
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Objeto.c
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.c
 
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Mochila.h
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Mochila.h
 TAD_Objeto.h
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Objeto.h
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.h
 
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Objeto.c
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.c
 TAD_Objeto.h
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Objeto.h
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.h
 
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Objeto.h
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.h
 
-C:/Users/lucbp/CLionProjects/TP2Aeds/main.c
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/main.c
 stdio.h
 -
 stdlib.h
@@ -30,7 +30,7 @@ stdlib.h
 time.h
 -
 TAD_Mochila.c
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Mochila.c
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Mochila.c
 TAD_Objeto.h
-C:/Users/lucbp/CLionProjects/TP2Aeds/TAD_Objeto.h
+/home/luscv/Downloads/TP2-AEDS-Complexidade-master/TP2-AEDS-Complexidade/TP2Aeds/TAD_Objeto.h
 

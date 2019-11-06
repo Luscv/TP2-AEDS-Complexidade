@@ -10,7 +10,8 @@ void printCombination(TypeObjeto objeto[], int quantidade, int capacidade){
     // A temporary array to store all combination one by one
     TypeObjeto data[capacidade];
 
-    // Print all combination using temprary array 'data[]'
+    // Print all combination using t,;
+    // emprary array 'data[]'
     combinationUtil(objeto, capacidade, quantidade, 0, data, 0);
 }
 
@@ -21,7 +22,7 @@ index  ---> Current index in data[]
 data[] ---> Temporary array to store current combination
 i      ---> index of current element in arr[]     */
 void combinationUtil(TypeObjeto objeto[], int capacidade, int quantidade, int index, TypeObjeto data[], int i){
-    // Current cobination is ready, print it
+    // Current combination is ready, print it
     if (index == capacidade){
         for (int j=0; j<capacidade; j++)
             printf("%d ",data[j]);

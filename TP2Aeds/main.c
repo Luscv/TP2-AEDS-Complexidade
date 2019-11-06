@@ -8,6 +8,7 @@ int main() {
 
     TypeItens itens;
     TypeMochila mochila;
+    TypeObjeto objeto[quantidade];
     int newpeso, newvalor;
     int opcheck, entrada;
     int capacidade = MaxTam;
@@ -31,19 +32,31 @@ int main() {
             ptr_arq = fopen(nome_arq, "r");
             if (ptr_arq == NULL) {
                 printf("Erro na abertura!\n");
-                perror((ptr_arq));
-                exit(1);
             }
-            fscanf(ptr_arq, "%d", &N);
-            printf("%d\n", N);
-            for (int i = 0; i <= N; i++) {
-                fscanf(ptr_arq, "%d %d", &V, &P);
-                printf("%d %d\n", V, P);
-            }
+            fscanf(ptr_arq, "%d", &quantidade);
+            FazListaItensArquivo(ptr_arq, &itens, objeto[quantidade], newvalor, newpeso);
+            do {
+                printf("*****************************************\n");
+                printf("|               Menu                    |\n");
+                printf("|                                       |\n");
+                printf("| Opcoes                                |\n");
+                printf("| 1 - Print all combinations            |\n");
+                printf("| 2 - None                              |\n");
+                printf("| 0 - Encerrar Programa                 |\n");
+                printf("*****************************************\n");
+                fflush(stdin);
+                scanf("%d", &opcheck);
+                if (opcheck == 1){
+                    for (int i = 0; i < quantidade; ++i) {
+                        printCombination(objeto, quantidade, capacidade);
+                    }
+                }else if (opcheck == 2) {
+                    printCombination(objeto, quantidade, capacidade);
+                }
+            }while (opcheck != 0);
         } else if (entrada == 2) {
             printf("Digite a quantidade de itens:\n");
             scanf("%d", &quantidade);
-            TypeObjeto objeto[quantidade];
             do {
                 printf("*****************************************\n");
                 printf("|               Menu                    |\n");
@@ -58,15 +71,9 @@ int main() {
                 fflush(stdin);
                 scanf("%d", &opcheck);
                 if (opcheck == 1) {
-                    int i;
-                    for (i = 0; i < quantidade; ++i) {
-                        printf("Digite o peso e valor do objeto\n");
-                        scanf("%d %d", &newpeso, &newvalor);
-                        FazListaItens(&itens, objeto[quantidade], newpeso, newvalor, i);
-                    }
+                    FazListaItens(&itens, objeto[quantidade], newpeso, newvalor);
 
-
-                } else if (opcheck == 2) {
+                }else if (opcheck == 2) {
                     printCombination(objeto, quantidade, capacidade);
                     return 0;
                 } else if (opcheck == 3) {

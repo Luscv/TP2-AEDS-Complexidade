@@ -16,7 +16,8 @@ typedef struct{
 
 
 int FazlistaItemVazia(TypeItens *itens);
-int FazListaItens(TypeItens *itens, TypeObjeto objeto, int newpeso, int newvalor, int i);
+int FazListaItens(TypeItens *itens, TypeObjeto objeto, int newpeso, int newvalor);
+int FazListaItensArquivo(FILE *ptr_arq, TypeItens *itens, TypeObjeto objeto, int newpeso, int newvalor);
 int ImprimeListaItens(TypeItens *itens);
 
 #endif //TP2AEDS_TAD_OBJETO_H
