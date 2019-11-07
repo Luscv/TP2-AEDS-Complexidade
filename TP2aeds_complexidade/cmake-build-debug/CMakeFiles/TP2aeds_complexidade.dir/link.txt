@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/TP2aeds_complexidade.dir/main.c.o CMakeFiles/TP2aeds_complexidade.dir/TAD_mochila.c.o CMakeFiles/TP2aeds_complexidade.dir/TAD_objeto.c.o  -o TP2aeds_complexidade 

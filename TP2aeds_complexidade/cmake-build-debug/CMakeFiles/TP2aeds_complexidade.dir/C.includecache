@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luscv/Documents/TP2aeds_complexidade/TAD_mochila.h
+stdio.h
+-
+TAD_objeto.h
+/home/luscv/Documents/TP2aeds_complexidade/TAD_objeto.h
+
+/home/luscv/Documents/TP2aeds_complexidade/TAD_objeto.h
+stdio.h
+-
+
+/home/luscv/Documents/TP2aeds_complexidade/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+TAD_mochila.h
+/home/luscv/Documents/TP2aeds_complexidade/TAD_mochila.h
+TAD_objeto.h
+/home/luscv/Documents/TP2aeds_complexidade/TAD_objeto.h
+
